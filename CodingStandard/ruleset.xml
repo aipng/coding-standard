@@ -15,10 +15,9 @@
 
 	<rule ref="vendor/consistence/coding-standard/Consistence/ruleset.xml">
 		<exclude name="Generic.PHP.LowerCaseConstant" />
-		<exclude name="Squiz.WhiteSpace.FunctionSpacing" />
-	</rule>
 
-	<rule ref="vendor/slevomat/coding-standard/SlevomatCodingStandard/ruleset.xml">
+		<exclude name="Squiz.WhiteSpace.FunctionSpacing" />
+
 		<exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly" />
 		<exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces" />
 	</rule>
