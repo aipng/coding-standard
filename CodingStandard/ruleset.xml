@@ -25,4 +25,11 @@
 	</rule>
 
 	<rule ref="Generic.PHP.UpperCaseConstant" />
+
+	<rule ref="Generic.Files.LineLength">
+		<properties>
+			<property name="lineLimit" value="120" />
+			<property name="absoluteLineLimit" value="160" />
+		</properties>
+	</rule>
 </ruleset>
