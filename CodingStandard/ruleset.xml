@@ -2,6 +2,17 @@
 <ruleset name="AipNg Coding Standard" namespace="AipNg\CS\Standard">
 	<description>The coding standard for PHP projects.</description>
 
+	<!--
+		The following tags are equivalent to the command line arguments:
+		colors
+		parallel=75
+		np - no warnings, show progress
+	-->
+
+	<arg name="colors" />
+	<arg name="parallel" value="75" />
+	<arg value="np" />
+
 	<rule ref="vendor/consistence/coding-standard/Consistence/ruleset.xml">
 		<exclude name="Generic.PHP.LowerCaseConstant" />
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing" />
