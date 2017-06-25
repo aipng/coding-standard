@@ -20,6 +20,7 @@
 
 		<exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly" />
 		<exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces" />
+		<exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions" />
 	</rule>
 
 	<rule ref="Generic.PHP.UpperCaseConstant" />
