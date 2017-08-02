@@ -19,6 +19,8 @@
 
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing" />
 
+		<exclude name="SlevomatCodingStandard.Files.TypeNameMatchesFileName" />
+
 		<exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly" />
 		<exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces" />
 		<exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions" />
