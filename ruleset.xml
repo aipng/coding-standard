@@ -9,6 +9,8 @@
 		np - no warnings, show progress
 	-->
 
+	<arg name="extensions" value="css,js,php,phpt" />
+
 	<arg name="colors" />
 	<arg name="parallel" value="75" />
 	<arg value="np" />
