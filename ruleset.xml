@@ -20,6 +20,7 @@
 		<exclude name="Generic.PHP.LowerCaseConstant" />
 
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing" />
+		<exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
 
 		<exclude name="SlevomatCodingStandard.Files.TypeNameMatchesFileName" />
 
