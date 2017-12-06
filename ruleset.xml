@@ -19,6 +19,8 @@
 		<exclude name="Generic.Files.LineEndings" />
 		<exclude name="Generic.PHP.LowerCaseConstant" />
 
+		<exclude name="Consistence.Exceptions.ExceptionDeclaration.IncorrectExceptionDirectory" />
+
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing" />
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
 
