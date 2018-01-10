@@ -43,6 +43,8 @@
 			<property name="usefulAnnotations" type="array" value="
 				@throws,
 				@dataProvider,
+				@ORM\PrePersist,
+				@ORM\PreUpdate
 			" />
 		</properties>
 	</rule>
