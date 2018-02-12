@@ -1,7 +1,7 @@
 {
     "name": "aipng/coding-standard",
     "description": "AipNg Coding Standard for PHP_CodeSniffer, based on Slevomat and Consistence Coding Standard.",
-    "license": "BSD",
+    "license": "MIT",
     "authors": [
         {
             "name": "Karel Horsky",
