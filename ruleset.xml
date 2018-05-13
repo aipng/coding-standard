@@ -28,6 +28,7 @@
 		<exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly" />
 		<exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces" />
 		<exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions" />
+		<exclude name="SlevomatCodingStandard.ControlStructures.NewWithParentheses" />
 	</rule>
 
 	<rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements">
@@ -57,6 +58,11 @@
 		</properties>
 	</rule>
 
+	<rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses">
+		<properties>
+			<property name="caseSensitive" value="false" />
+		</properties>
+	</rule>
 
 	<rule ref="Generic.Files.LineLength">
 		<properties>
