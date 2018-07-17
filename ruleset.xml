@@ -41,12 +41,7 @@
 
 	<rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
 		<properties>
-			<property name="usefulAnnotations" type="array" value="
-				@throws,
-				@dataProvider,
-				@ORM\PrePersist,
-				@ORM\PreUpdate
-			" />
+			<property name="allAnnotationsAreUseful" value="true" />
 		</properties>
 	</rule>
 
