@@ -27,6 +27,7 @@
 
 		<exclude name="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly" />
 		<exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces" />
+		<exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameAfterKeyword" />
 		<exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedExceptions" />
 		<exclude name="SlevomatCodingStandard.ControlStructures.NewWithParentheses" />
 	</rule>
@@ -42,14 +43,6 @@
 	<rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
 		<properties>
 			<property name="allAnnotationsAreUseful" value="true" />
-		</properties>
-	</rule>
-
-	<rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameAfterKeyword">
-		<properties>
-			<property name="keywordsToCheck" type="array" value="
-					T_IMPLEMENTS,
-				" />
 		</properties>
 	</rule>
 
