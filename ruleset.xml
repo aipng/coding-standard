@@ -40,12 +40,6 @@
 		</properties>
 	</rule>
 
-	<rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
-		<properties>
-			<property name="allAnnotationsAreUseful" value="true" />
-		</properties>
-	</rule>
-
 	<rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses">
 		<properties>
 			<property name="caseSensitive" value="false" />
