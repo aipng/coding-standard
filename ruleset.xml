@@ -166,6 +166,7 @@
 	<rule ref="SlevomatCodingStandard.Exceptions.DeadCatch" />
 	<rule ref="SlevomatCodingStandard.Exceptions.ReferenceThrowableOnly" />
 	<rule ref="SlevomatCodingStandard.Exceptions.RequireNonCapturingCatch" />
+	<rule ref="SlevomatCodingStandard.Functions.RequireTrailingCommaInDeclaration" />
 	<rule ref="SlevomatCodingStandard.Functions.UnusedInheritedVariablePassedToClosure" />
 	<rule ref="SlevomatCodingStandard.Functions.ArrowFunctionDeclaration">
 		<properties>
