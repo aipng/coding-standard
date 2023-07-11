@@ -99,6 +99,7 @@
 	<rule ref="PSR2.Methods.MethodDeclaration" />
 	<rule ref="PSR2.Namespaces.UseDeclaration" />
 
+	<rule ref="SlevomatCodingStandard.Arrays.ArrayAccess" />
 	<rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma" />
 	<rule ref="SlevomatCodingStandard.Arrays.MultiLineArrayEndBracketPlacement" />
 	<rule ref="SlevomatCodingStandard.Classes.BackedEnumTypeSpacing" />
@@ -129,6 +130,7 @@
 			<property name="linesCountAfterLastUseWhenLastInClass" value="1" />
 		</properties>
 	</rule>
+	<rule ref="SlevomatCodingStandard.Commenting.AnnotationName" />
 	<rule ref="SlevomatCodingStandard.Commenting.EmptyComment" />
 	<rule ref="SlevomatCodingStandard.Commenting.InlineDocCommentDeclaration">
 		<properties>
@@ -150,6 +152,7 @@
 		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowEmpty" />
+	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowTrailingMultiLineTernaryOperator" />
 	<rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison" />
 	<rule ref="SlevomatCodingStandard.ControlStructures.JumpStatementsSpacing">
 		<properties>
