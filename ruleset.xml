@@ -210,7 +210,7 @@
 	<rule ref="SlevomatCodingStandard.PHP.UselessSemicolon" />
 	<rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
 		<properties>
-			<property name="linesCountBeforeDeclare" value="2" />
+			<property name="linesCountBeforeDeclare" value="1" />
 		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints" />
