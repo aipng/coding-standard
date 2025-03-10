@@ -213,6 +213,12 @@
 			<property name="linesCountBeforeDeclare" value="1" />
 		</properties>
 	</rule>
+	<rule ref="SlevomatCodingStandard.TypeHints.DNFTypeHintFormat">
+		<properties>
+			<property name="shortNullable" value="yes" />
+			<property name="nullPosition" value="last" />
+		</properties>
+	</rule>
 	<rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints" />
 	<rule ref="SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition" />
 	<rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue" />
@@ -241,12 +247,6 @@
 		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing" />
-	<rule ref="SlevomatCodingStandard.TypeHints.UnionTypeHintFormat">
-		<properties>
-			<property name="shortNullable" value="true" />
-			<property name="nullPosition" value="last" />
-		</properties>
-	</rule>
 	<rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint" />
 	<rule ref="SlevomatCodingStandard.Variables.DuplicateAssignmentToVariable" />
 	<rule ref="SlevomatCodingStandard.Variables.UnusedVariable" />
