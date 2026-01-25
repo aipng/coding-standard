@@ -10,9 +10,9 @@
 	],
 	"minimum-stability": "stable",
 	"require": {
-		"PHP": ">=7.3",
-		"squizlabs/php_codesniffer": "^3.6",
-		"slevomat/coding-standard": "^8.14.1"
+		"PHP": ">=8.4",
+		"squizlabs/php_codesniffer": "^4.0.1",
+		"slevomat/coding-standard": "^8.26.0"
 	},
 	"config": {
 		"allow-plugins": {
